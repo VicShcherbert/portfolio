@@ -1,0 +1,106 @@
+a {
+  color: black;
+}
+
+#main-title {
+  font-size: 50px;
+}
+
+#subtitle {
+  font-size: 30px;
+}
+
+#main-container {
+  width: 600px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.section {
+  display: inline-block;
+}
+
+.headshot-image {
+  width: 30%;
+  margin: 30px;
+}
+
+#links {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.link {
+  color: black;
+}
+
+.exp-item {
+  border-radius: 10px;
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 10px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+.exp-item:hover {
+  filter: brightness(95%);
+  cursor: pointer;
+}
+
+#jk-description {
+  display: none;
+  margin-top: 10px;
+}
+#gsbcmusic-description {
+  display: none;
+  margin-top: 10px;
+}
+#pnwcamp-description {
+  display: none;
+  margin-top: 10px;
+}
+#ewugrants-description {
+  display: none;
+  margin-top: 10px;
+}
+#gsbcyouth-description {
+  display: none;
+  margin-top: 10px;
+}
+#ewu-description {
+  display: none;
+  margin-top: 10px;
+}
+#nwpower-description {
+  display: none;
+  margin-top: 10px;
+}
+
+/* Inside of the box */
+.exp-text-item {
+  margin: 10px;
+}
+
+#desc-button {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
